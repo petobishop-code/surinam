@@ -1,0 +1,33 @@
+{
+  "brandName": "수리남케어",
+  "brandSlug": "surinam",
+  "phone": "010-7601-1156",
+  "industry": "하수구/배관",
+  "siteUrl": "https://surinam.vercel.app",
+  "pages": [
+    {
+      "file": "창원변기막힘.html",
+      "keyword": "창원변기막힘",
+      "region": "창원",
+      "service": "변기막힘",
+      "title": "창원변기막힘 | 수리남케어",
+      "description": "창원변기막힘 원인 점검과 현장 작업 안내. 수리남케어 상담 010-7601-1156"
+    },
+    {
+      "file": "창원싱크대막힘.html",
+      "keyword": "창원싱크대막힘",
+      "region": "창원",
+      "service": "싱크대막힘",
+      "title": "창원싱크대막힘 | 수리남케어",
+      "description": "창원싱크대막힘 원인 점검과 현장 작업 안내. 수리남케어 상담 010-7601-1156"
+    },
+    {
+      "file": "창원하수구막힘.html",
+      "keyword": "창원하수구막힘",
+      "region": "창원",
+      "service": "하수구막힘",
+      "title": "창원하수구막힘 | 수리남케어",
+      "description": "창원하수구막힘 원인 점검과 현장 작업 안내. 수리남케어 상담 010-7601-1156"
+    }
+  ]
+}
