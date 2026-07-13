@@ -3,8 +3,32 @@
   "brandSlug": "surinam",
   "phone": "010-7601-1156",
   "industry": "하수구/배관",
-  "siteUrl": "https://surinam.vercel.app",
+  "siteUrl": "https://surinam-three.vercel.app",
   "pages": [
+    {
+      "file": "성산구변기막힘.html",
+      "keyword": "성산구변기막힘",
+      "region": "성산구",
+      "service": "변기막힘",
+      "title": "성산구변기막힘 | 수리남케어",
+      "description": "성산구변기막힘 원인 점검과 현장 작업 안내. 수리남케어 상담 010-7601-1156"
+    },
+    {
+      "file": "성산구싱크대막힘.html",
+      "keyword": "성산구싱크대막힘",
+      "region": "성산구",
+      "service": "싱크대막힘",
+      "title": "성산구싱크대막힘 | 수리남케어",
+      "description": "성산구싱크대막힘 원인 점검과 현장 작업 안내. 수리남케어 상담 010-7601-1156"
+    },
+    {
+      "file": "성산구하수구막힘.html",
+      "keyword": "성산구하수구막힘",
+      "region": "성산구",
+      "service": "하수구막힘",
+      "title": "성산구하수구막힘 | 수리남케어",
+      "description": "성산구하수구막힘 원인 점검과 현장 작업 안내. 수리남케어 상담 010-7601-1156"
+    },
     {
       "file": "의창구변기막힘.html",
       "keyword": "의창구변기막힘",
