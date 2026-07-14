@@ -1,9 +1,9 @@
 {
-  "brandName": "�������ɾ�",
+  "brandName": "수리남케어",
   "brandSlug": "surinam",
   "phone": "010-7601-1156",
   "kakaoId": "hhssoohso",
-  "industry": "�ϼ���/���",
+  "industry": "하수구/배관",
   "siteUrl": "https://surinam-three.vercel.app",
   "pages": [
     {
@@ -79,6 +79,30 @@
       "description": "의창구하수구막힘 원인 점검과 현장 작업 안내. 수리남케어 상담 010-7601-1156"
     },
     {
+      "file": "진해변기막힘.html",
+      "keyword": "진해변기막힘",
+      "region": "진해",
+      "service": "변기막힘",
+      "title": "진해변기막힘 | 수리남케어",
+      "description": "진해변기막힘 원인 점검과 현장 작업 안내. 수리남케어 상담 010-7601-1156"
+    },
+    {
+      "file": "진해싱크대막힘.html",
+      "keyword": "진해싱크대막힘",
+      "region": "진해",
+      "service": "싱크대막힘",
+      "title": "진해싱크대막힘 | 수리남케어",
+      "description": "진해싱크대막힘 원인 점검과 현장 작업 안내. 수리남케어 상담 010-7601-1156"
+    },
+    {
+      "file": "진해하수구막힘.html",
+      "keyword": "진해하수구막힘",
+      "region": "진해",
+      "service": "하수구막힘",
+      "title": "진해하수구막힘 | 수리남케어",
+      "description": "진해하수구막힘 원인 점검과 현장 작업 안내. 수리남케어 상담 010-7601-1156"
+    },
+    {
       "file": "창원변기막힘.html",
       "keyword": "창원변기막힘",
       "region": "창원",
@@ -142,7 +166,58 @@
       "banner-11.webp"
     ],
     "bannerSource": "brands/surinam/banner",
-    "gallery": [],
-    "gallerySource": ""
+    "gallery": [
+      "gallery-01.webp",
+      "gallery-02.webp",
+      "gallery-03.webp",
+      "gallery-04.webp",
+      "gallery-05.webp",
+      "gallery-06.webp",
+      "gallery-07.webp",
+      "gallery-08.webp",
+      "gallery-09.webp",
+      "gallery-10.webp",
+      "gallery-11.webp",
+      "gallery-12.webp",
+      "gallery-13.webp",
+      "gallery-14.webp",
+      "gallery-15.webp",
+      "gallery-16.webp",
+      "gallery-17.webp",
+      "gallery-18.webp",
+      "gallery-19.webp",
+      "gallery-20.webp",
+      "gallery-21.webp",
+      "gallery-22.webp",
+      "gallery-23.webp",
+      "gallery-24.webp",
+      "gallery-25.webp",
+      "gallery-26.webp",
+      "gallery-27.webp",
+      "gallery-28.webp",
+      "gallery-29.webp",
+      "gallery-30.webp",
+      "gallery-31.webp",
+      "gallery-32.webp",
+      "gallery-33.webp",
+      "gallery-34.webp",
+      "gallery-35.webp",
+      "gallery-36.webp",
+      "gallery-37.webp",
+      "gallery-38.webp",
+      "gallery-39.webp",
+      "gallery-40.webp",
+      "gallery-41.webp",
+      "gallery-42.webp",
+      "gallery-43.webp",
+      "gallery-44.webp",
+      "gallery-45.webp",
+      "gallery-46.webp",
+      "gallery-47.webp",
+      "gallery-48.webp",
+      "gallery-49.webp",
+      "gallery-50.webp"
+    ],
+    "gallerySource": "industries/drain/gallery"
   }
 }
