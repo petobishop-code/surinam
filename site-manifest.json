@@ -1,11 +1,35 @@
 {
-  "brandName": "수리남케어",
+  "brandName": "수리남",
   "brandSlug": "surinam",
   "phone": "010-7601-1156",
   "kakaoId": "hhssoohso",
   "industry": "하수구/배관",
   "siteUrl": "https://surinam-three.vercel.app",
   "pages": [
+    {
+      "file": "구로구변기막힘.html",
+      "keyword": "구로구변기막힘",
+      "region": "구로구",
+      "service": "변기막힘",
+      "title": "구로구변기막힘 | 수리남",
+      "description": "구로구변기막힘 원인 점검과 현장 작업 안내. 수리남 상담 010-7601-1156"
+    },
+    {
+      "file": "구로구싱크대막힘.html",
+      "keyword": "구로구싱크대막힘",
+      "region": "구로구",
+      "service": "싱크대막힘",
+      "title": "구로구싱크대막힘 | 수리남",
+      "description": "구로구싱크대막힘 원인 점검과 현장 작업 안내. 수리남 상담 010-7601-1156"
+    },
+    {
+      "file": "구로구하수구막힘.html",
+      "keyword": "구로구하수구막힘",
+      "region": "구로구",
+      "service": "하수구막힘",
+      "title": "구로구하수구막힘 | 수리남",
+      "description": "구로구하수구막힘 원인 점검과 현장 작업 안내. 수리남 상담 010-7601-1156"
+    },
     {
       "file": "성산구변기막힘.html",
       "keyword": "성산구변기막힘",
