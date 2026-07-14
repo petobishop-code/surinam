@@ -79,7 +79,6 @@
     }
   ],
   "assets": {
-    "dir": "drain",
     "banners": [
       "banner-01.webp",
       "banner-02.webp",
@@ -93,6 +92,7 @@
       "banner-10.webp",
       "banner-11.webp"
     ],
+    "bannerSource": "brands/surinam/banner",
     "gallery": [
       "gallery-01.webp",
       "gallery-02.webp",
@@ -144,6 +144,7 @@
       "gallery-48.webp",
       "gallery-49.webp",
       "gallery-50.webp"
-    ]
+    ],
+    "gallerySource": "industries/drain/gallery"
   }
 }
