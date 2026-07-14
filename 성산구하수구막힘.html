@@ -33,15 +33,25 @@
 *{box-sizing:border-box}
 body{margin:0;font-family:Arial,'Noto Sans KR',sans-serif;line-height:1.7;color:#111;background:#f5f7fb}
 a{text-decoration:none;color:inherit}
-.header{background:#071020;color:#fff;padding:34px 20px;text-align:center}
-.header h1{font-size:40px;margin:0 0 12px}
-.header p{font-size:20px;margin:0;color:#dbeafe}
+.header{background:#071020;color:#fff;padding:38px 20px;text-align:center}
+.header h1{font-size:40px;margin:0 0 16px}
+.header .services{font-size:22px;font-weight:800;margin:0 0 8px;color:#7dd3fc}
+.header .notice{font-size:17px;margin:0 0 22px;color:#cbd5e1}
+.header-cta{display:flex;justify-content:center;flex-wrap:wrap;gap:12px}
+.btn-call,.btn-kakao{display:inline-flex;align-items:center;gap:8px;font-family:inherit;font-size:18px;font-weight:900;padding:16px 28px;border-radius:999px;border:0;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.btn-call{background:#0ea5e9;color:#fff;box-shadow:0 10px 26px rgba(14,165,233,.45)}
+.btn-kakao{background:#fee500;color:#191600;box-shadow:0 10px 26px rgba(254,229,0,.35)}
+.btn-call:hover,.btn-kakao:hover{transform:translateY(-2px)}
 .banner-strip{max-width:1100px;margin:auto;padding:28px 20px 0;display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
 .banner-strip a{display:block;border-radius:20px;overflow:hidden;box-shadow:0 14px 35px rgba(15,23,42,.14);transition:transform .2s}
 .banner-strip a:hover{transform:translateY(-3px)}
 .banner-strip img{display:block;width:100%;height:auto}
-.nav{background:#0f172a;color:#fff;padding:14px;text-align:center}
-.nav a{font-weight:800;margin:0 12px;display:inline-block}
+.nav{background:#0f172a;color:#fff;padding:14px 20px;text-align:center}
+.nav a{font-weight:800;margin:6px 10px;display:inline-block}
+.nav-rest{display:none}
+.nav-rest.open{display:contents}
+.nav-more{font-family:inherit;font-size:15px;font-weight:800;margin:6px 10px;padding:6px 16px;border-radius:999px;border:1px solid #38bdf8;background:transparent;color:#7dd3fc;cursor:pointer}
+.nav-more:hover{background:#38bdf8;color:#0f172a}
 .section{max-width:1100px;margin:auto;padding:60px 20px}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .card{background:#fff;border:1px solid #e5e7eb;border-radius:24px;padding:28px;box-shadow:0 14px 35px rgba(15,23,42,.08)}
@@ -81,13 +91,26 @@ blockquote{margin:0 0 8px;padding:20px 26px;background:#0f172a;color:#e0f2fe;bor
 <body>
 <header class="header">
   <h1>성산구하수구막힘</h1>
-  <p>수리남케어 | 010-7601-1156</p>
+  <p class="services">하수구막힘 · 싱크대막힘 · 변기막힘</p>
+  <p class="notice">전국 출동 가능 / 24시간 연중무휴</p>
+  <div class="header-cta">
+    <a class="btn-call" href="tel:010-7601-1156">전화상담 010-7601-1156</a>
+    <button class="btn-kakao" type="button" onclick="navigator.clipboard.writeText('hhssoohso');this.textContent='카카오톡 ID 복사됨 ✓'">카카오톡 hhssoohso</button>
+  </div>
 </header>
 <nav class="nav">
   <a href="/">홈</a>
   <a href="/%EC%84%B1%EC%82%B0%EA%B5%AC%EB%B3%80%EA%B8%B0%EB%A7%89%ED%9E%98.html">성산구변기막힘</a>
   <a href="/%EC%84%B1%EC%82%B0%EA%B5%AC%EC%8B%B1%ED%81%AC%EB%8C%80%EB%A7%89%ED%9E%98.html">성산구싱크대막힘</a>
-  <a href="/%EC%84%B1%EC%82%B0%EA%B5%AC%ED%95%98%EC%88%98%EA%B5%AC%EB%A7%89%ED%9E%98.html">성산구하수구막힘</a>
+  <a href="/%EC%9D%98%EC%B0%BD%EA%B5%AC%EB%B3%80%EA%B8%B0%EB%A7%89%ED%9E%98.html">의창구변기막힘</a>
+  <a href="/%EC%9D%98%EC%B0%BD%EA%B5%AC%EC%8B%B1%ED%81%AC%EB%8C%80%EB%A7%89%ED%9E%98.html">의창구싱크대막힘</a>
+  <a href="/%EC%9D%98%EC%B0%BD%EA%B5%AC%ED%95%98%EC%88%98%EA%B5%AC%EB%A7%89%ED%9E%98.html">의창구하수구막힘</a>
+  <a href="/%EC%B0%BD%EC%9B%90%EB%B3%80%EA%B8%B0%EB%A7%89%ED%9E%98.html">창원변기막힘</a>
+  <span class="nav-rest">
+  <a href="/%EC%B0%BD%EC%9B%90%EC%8B%B1%ED%81%AC%EB%8C%80%EB%A7%89%ED%9E%98.html">창원싱크대막힘</a>
+  <a href="/%EC%B0%BD%EC%9B%90%ED%95%98%EC%88%98%EA%B5%AC%EB%A7%89%ED%9E%98.html">창원하수구막힘</a>
+  </span>
+  <button class="nav-more" type="button" onclick="this.previousElementSibling.classList.add('open');this.remove()">더 보기 +2</button>
   <a href="/gallery.html">작업사진</a>
   <a href="/contact.html">문의</a>
 </nav>
