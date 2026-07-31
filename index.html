@@ -128,6 +128,17 @@ blockquote{margin:0 0 8px;padding:20px 26px;background:#0f172a;color:#e0f2fe;bor
 .gallery-grid img{width:100%;height:190px;object-fit:cover;border-radius:16px;border:1px solid #e5e7eb;background:#e2e8f0}
 .gallery-grid figcaption{margin-top:8px;font-size:13px;color:#64748b;font-weight:600}
 @media(max-width:800px){.grid,.keypoints,.steps,.link-grid,.banner-strip{grid-template-columns:1fr}.photo-grid,.gallery-grid{grid-template-columns:repeat(2,1fr)}.header h1{font-size:30px}}
+
+.article .faq{display:grid;gap:12px}
+.article .faq details{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:0 22px;box-shadow:0 8px 20px rgba(15,23,42,.06)}
+.article .faq summary{cursor:pointer;list-style:none;padding:20px 0;font-weight:800;font-size:18px;color:#0f172a;display:flex;justify-content:space-between;gap:12px}
+.article .faq summary::-webkit-details-marker{display:none}
+.article .faq summary::after{content:"+";color:#0ea5e9;font-weight:900;font-size:24px;line-height:1}
+.article .faq details[open] summary::after{content:"−"}
+.article .faq details[open] summary{border-bottom:1px solid #eef2f7}
+.article .faq .answer{padding:16px 0 22px;color:#334155;font-size:16px;line-height:1.75}
+.map-block iframe{width:100%;height:360px;border:0;border-radius:20px;box-shadow:0 14px 35px rgba(15,23,42,.1);background:#e2e8f0}
+.map-cap{margin-top:10px;font-size:14px;color:#64748b}
 </style>
 </head>
 <body>
